@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,10 +29,70 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      
+      <!-- Separate divs for each timeblock between 9 AM and 5 PM-->
+      
+      <div id="nineAM" class="timeRow">
+        <!-- Hours listed in narrow left column-->
+        <div>9 AM</div>
+        <!-- Center column for tasks, big enough for texts-->
+        <textarea></textarea>
+        <!-- Buttons on far right to save-->
+        <button class="saveBtn"></button>
+      </div>
+
+      <div id="tenAM" class="timeRow">
+        <div>10 AM</div>
+        <textarea></textarea>
+        <button class="saveBtn"></button>
+      </div>
+
+      <div id="elevenAM" class="timeRow">
+        <div>11 AM</div>
+        <textarea></textarea>
+        <button class="saveBtn"></button>
+      </div>
+
+      <div id="twelvePM" class="timeRow">
+        <div>12 PM</div>
+        <textarea></textarea>
+        <button class="saveBtn"></button>
+      </div>
+
+      <div id="onePM" class="timeRow">
+        <div>1 PM</div>
+        <textarea></textarea>
+        <button class="saveBtn"></button>
+      </div>
+
+      <div id="twoPM" class="timeRow">
+        <div>2 PM</div>
+        <textarea></textarea>
+        <button class="saveBtn"></button>
+      </div>
+
+      <div id="threePM" class="timeRow">
+        <div>3 PM</div>
+        <textarea></textarea>
+        <button class="saveBtn"></button>
+      </div>
+
+      <div id="fourPM" class="timeRow">
+        <div>4 PM</div>
+        <textarea></textarea>
+        <button class="saveBtn"></button>
+      </div>
+
+      <div id="fivePM" class="timeRow">
+        <div>5 PM</div>
+        <textarea></textarea>
+        <button class="saveBtn"></button>
+      </div>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/script.js"></script>
   </body>
 </html>
