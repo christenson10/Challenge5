@@ -1,10 +1,9 @@
 //Current date is fixed to top of calendar
-var currentDay = moment().format("YYYY-MM-DD");
-console.log(currentDay)
+var currentDay = moment().format("dddd, MMMM Do");
+$("#currentDay").append(currentDay);
 
 //Current time 
 var currentHour = moment().hour();
-console.log(currentHour)
 
 var nineAM = document.getElementById('nineAM')
 var tenAM = document.getElementById('tenAM')
@@ -189,7 +188,7 @@ var seventeenSave = function(){
     localStorage.setItem("storedSeventeenText", textInput)
 }
 var seventeenLoad = function(){
-    var textLoad = localStorage.getItem("storedSseventeenText")
+    var textLoad = localStorage.getItem("storedSeventeenText")
     seventeenText.value = textLoad
 }
 
