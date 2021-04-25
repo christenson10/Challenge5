@@ -10,6 +10,7 @@ Using start code HTML and CSS, a word day scheduler to stay organized and stay o
 * Local Storage
 * Bootstrap
 * Moment.js
+* jQuery
 
 ##Acceptance Criteria
 * GIVEN I am using a daily planner to create a schedule
