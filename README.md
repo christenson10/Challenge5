@@ -1,9 +1,9 @@
-#Work Day Scheduler - Challenge #5
+# Work Day Scheduler - Challenge #5
 
-##Purpose
+## Purpose
 Using start code HTML and CSS, a word day scheduler to stay organized and stay on top of past, present and future tasks.
 
-##Built With
+## Built With
 * HTML
 * CSS
 * JavaScript
@@ -12,7 +12,7 @@ Using start code HTML and CSS, a word day scheduler to stay organized and stay o
 * Moment.js
 * jQuery
 
-##Acceptance Criteria
+## Acceptance Criteria
 * GIVEN I am using a daily planner to create a schedule
 * WHEN I open the planner
 * THEN the current day is displayed at the top of the calendar
@@ -27,11 +27,11 @@ Using start code HTML and CSS, a word day scheduler to stay organized and stay o
 * WHEN I refresh the page
 * THEN the saved events persist
 
-##Link
+## Link
 https://christenson10.github.io/Challenge5/
 
-##Picture
+## Picture
 ![Screenshot1](Challenge5Screenshot.jpg)
 
-##Created by:
+## Created by:
 Alex Christenson, 2021
